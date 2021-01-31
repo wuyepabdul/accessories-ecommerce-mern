@@ -33,11 +33,7 @@ const OrderScreen = ({ match }) => {
   const { success: successPay, loading: loadingPay } = orderPay;
 
   const orderDeliver = useSelector((state) => state.orderDeliver);
-  const {
-    loading: loadingDeliver,
-    error: errorDeliver,
-    success: successDeliver,
-  } = orderDeliver;
+  const { loading: loadingDeliver, success: successDeliver } = orderDeliver;
 
   if (!loading) {
     // calculating price
@@ -86,7 +82,7 @@ const OrderScreen = ({ match }) => {
     dispatch({ type: CART_RESET_ITEM });
   };
 
-  const deliverHandler = (order) => {
+  const deliverHandler = () => {
     dispatch(deliverOrderAction(order));
   };
 
@@ -222,18 +218,18 @@ const OrderScreen = ({ match }) => {
                       onSuccess={successPaymentHandler}
                     />
                   )}
-                  {loadingDeliver && <Loader />}
-                  {userInfo.isAdmin && order.isPaid && !order.isDelivered && (
-                    <ListGroup.Item>
-                      <Button
-                        type="button"
-                        className="btn btn-block"
-                        onClick={deliverHandler}
-                      >
-                        Mark as Delivered
-                      </Button>
-                    </ListGroup.Item>
-                  )}
+                </ListGroup.Item>
+              )}
+              {loadingDeliver && <Loader />}
+              {userInfo.isAdmin && order.isPaid && !order.isDelivered && (
+                <ListGroup.Item>
+                  <Button
+                    type="button"
+                    className="btn btn-block"
+                    onClick={deliverHandler}
+                  >
+                    Mark as Delivered
+                  </Button>
                 </ListGroup.Item>
               )}
             </ListGroup>

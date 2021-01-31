@@ -15,6 +15,6 @@ router.post("/", protect, addOrderItemsController);
 router.get("/myorders", protect, getMyOrdersController);
 router.get("/:id", protect, getOrderByIdController);
 router.put("/:id/pay", protect, updateOrderToPaidController);
-router.put("/:id/pay", protect, isAdmin, updateOrderToDeliveredController);
+router.put("/:id/deliver", protect, isAdmin, updateOrderToDeliveredController);
 
 export default router;
