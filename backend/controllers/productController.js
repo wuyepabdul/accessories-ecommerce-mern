@@ -155,7 +155,7 @@ export const createProductReviewController = asyncHandler(async (req, res) => {
         res.status(400).json({ message: "Product already reviewed" });
       }
 
-      const review = {
+      const review = {  
         name: req.user.name,
         rating: Number(rating),
         comment,
