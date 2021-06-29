@@ -36,7 +36,7 @@ h3 {
 }
 
 /* Carousel*/
-.carousel-item-next,
+/* .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
   display: flex;
@@ -50,11 +50,4 @@ h3 {
 
 .carousel-caption h2 {
   color: #fff;
-}
-
-.carousel img {
-  height: 300px;
-  padding: 30px;
-  margin: 40px;
-  border-radius: 50%;
-}
+} */
