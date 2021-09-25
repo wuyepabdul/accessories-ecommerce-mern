@@ -1,4 +1,7 @@
-<h1 align="center">Welcome to accessories-online-store 👋</h1>
+<h1 align="center">An Accessories ecommerce application 👋</h1>
+<p>
+  An ecommerce app designed to facilitate the buying and selling of electronic accessories. Users can create a profile, buy a product using credit card, make an order and view order history. Built with Mongodb, React, Redux, Nodejs, Express.
+</p>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/wuyepabdul/accessories-ecommerce-mern#readme" target="_blank">
@@ -16,11 +19,12 @@
 
 ### 🏠 [Homepage](https://github.com/wuyepabdul/accessories-ecommerce-mern#readme)
 
-## Install
+## Getting Started
 
-```sh
-npm install
-```
+**To clone this project**
+**Run command: $git clone https://github.com/wuyepabdul/awesome-books.git**
+**or press the green Code button in the upper right corner and choose to download from the Download ZIP link.**
+
 
 ## Usage
 
