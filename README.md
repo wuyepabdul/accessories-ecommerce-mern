@@ -22,13 +22,14 @@
 ## Getting Started
 
 **To clone this project**
-**Run command: $git clone https://github.com/wuyepabdul/awesome-books.git**
+**Run command: $git clone https://github.com/wuyepabdul/accessories-ecommerce-mern.git**
 **or press the green Code button in the upper right corner and choose to download from the Download ZIP link.**
 
 
 ## Usage
 
 ```sh
+cd accessories-ecommerce-mern
 npm run start
 ```
 
