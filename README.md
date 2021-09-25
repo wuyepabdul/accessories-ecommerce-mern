@@ -1,23 +1,6 @@
-<h1 align="center">An Accessories ecommerce application 👋</h1>
-<p>
-  An ecommerce app designed to facilitate the buying and selling of electronic accessories. Users can create a profile, buy a product using credit card, make an order and view order history. Built with Mongodb, React, Redux, Nodejs, Express.
-</p>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/wuyepabdul/accessories-ecommerce-mern#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/wuyepabdul/accessories-ecommerce-mern/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/wuyepabdul/accessories-ecommerce-mern/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/wuyepabdul/accessories-online-store" />
-  </a>
-</p>
+ ## Accessories Ecommerce App
+An ecommerce app designed to facilitate the buying and selling of electronic accessories. Users can create a profile, buy a product using credit card, make an order and view order history. Built with Mongodb, React, Redux, Nodejs, Express.
 
-> MERN Ecommerce Application
-
-### 🏠 [Homepage](https://github.com/wuyepabdul/accessories-ecommerce-mern#readme)
 
 ## Getting Started
 
